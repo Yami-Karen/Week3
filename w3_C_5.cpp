@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <cstdlib>
 using namespace std;
 bool out;
 int rev(int* f[],int i,int j,int count,int m,int n,int move)
@@ -47,6 +48,6 @@ int main()
 	 	for (int j = 1;j <= n;j++) cout << setw(5) << f[i][j];
 	 	cout << endl;
 	 }
-	 delete(f);
+	 free(f);
 	return 0;
 }
