@@ -37,17 +37,16 @@ int main()
 	int m,n;
 	cin >> m >> n;
 	int* f[m + 2];
-	for (int i = 1;i <= m + 1;i++) f[i] = new int;
-	for (int i = 1;i <= m + 1;i++) 
-	 for (int j = 1;j <= n + 1;j++)
+	for (int i = 0;i <= m + 1;i++) f[i] = new int;
+	for (int i = 0;i <= m + 1;i++) 
+	 for (int j = 0;j <= n + 1;j++)
 	  f[i][j] = 0;
 	rev(f,1,1,1,m,n,1);  
-	cout << endl;
 	for (int i = 1;i <= m;i++)
 	 {
-	 	for (int j = 1;j <= n;j++) cout << setw(5) << f[i][j];
+	 	for (int j = 1;j <= n;j++) cout << setw(8) << f[i][j];
 	 	cout << endl;
 	 }
-	 free(f);
+	free(f);
 	return 0;
 }
