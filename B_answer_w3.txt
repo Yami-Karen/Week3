@@ -1,0 +1,21 @@
+B.
+1.i và iv
+2.ii và iv
+3.ii 
+4.i
+5.i
+6.ii
+7.i
+8.ii
+9. truy cập ngoài vùng
+10. iv nếu như đáp án gõ sai, thực tế là void clearBoard(char aChar[][10]);
+11. iii
+12. iv
+13. iii
+14. iv
+15. i, ii
+16. ii
+17. i
+18. i,ii,iii
+19. iii,iv
+20. iii
